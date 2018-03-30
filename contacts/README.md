@@ -1,8 +1,9 @@
-[1] install npm
-[2] install create-react-app
-> npm install -g create-react-app
-[3] create a project 'contacts'
-> create-react-app contacts
+1. install npm
+2. install create-react-app<br>
+ `npm install -g create-react-app`
+3. create a project 'contacts'<br>
+ `create-react-app contacts`
+
 =================================
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
