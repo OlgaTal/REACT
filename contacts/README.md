@@ -1,3 +1,9 @@
+[1] install npm
+[2] install create-react-app
+> npm install -g create-react-app
+[3] create a project 'contacts'
+> create-react-app contacts
+=================================
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
