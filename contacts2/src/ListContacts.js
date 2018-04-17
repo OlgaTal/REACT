@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+import React, {Component} from 'react';
+import {Link} from 'react-router-dom'
 import PropTypes from 'prop-types'
 import escapeRegExp from 'escape-string-regexp'
 import sortBy from 'sort-by'
@@ -8,33 +8,33 @@ class ListContacts extends Component {
   static propTypes = {
     contacts: PropTypes.array.isRequired,
     onDeleteContact: PropTypes.func.isRequired
-  }
+  };
 
   state = {
     query: ''
-  }
+  };
 
   updateQuery = (query) => {
-    this.setState({ query: query.trim() })
-  }
+    this.setState({query: query.trim()})
+  };
 
   clearQuery = () => {
-    this.setState({ query: '' })
-  }
+    this.setState({query: ''})
+  };
 
   render() {
-    const { contacts, onDeleteContact } = this.props
-    const { query } = this.state
+    const {contacts, onDeleteContact} = this.props;
+    const {query} = this.state;
 
-    let showingContacts
+    let showingContacts;
     if (query) {
-      const match = new RegExp(escapeRegExp(query), 'i')
-      showingContacts = contacts.filter((contact) => match.test(contact.name))
+      const match = new RegExp(escapeRegExp(query), 'i');
+      showingContacts = contacts.filter((contact) => match.test(contact.name));
     } else {
-      showingContacts = contacts
+      showingContacts = contacts;
     }
 
-    showingContacts.sort(sortBy('name'))
+    showingContacts.sort(sortBy('name'));
 
     return (
       <div className='list-contacts'>
@@ -80,4 +80,4 @@ class ListContacts extends Component {
   }
 }
 
-export default ListContacts
+export default ListContacts;
