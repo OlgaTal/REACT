@@ -2,5 +2,4 @@
 2. download nmp packages: npm i
 
 =================================
-project demonstrates usage of REACT Context in React v16:
-Provider-Consumer
+### Project demonstrates usage of REACT Context in React v16: Provider-Consumer
