@@ -1,1 +1,1 @@
-### <ConnectedApp>, <Provider>, <Consumer >
+### <ConnectedApp />, <Provider />, <Consumer />
