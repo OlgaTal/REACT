@@ -1,0 +1,264 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #252525;
+}
+
+a {
+    text-decoration: none;
+    color: #252525;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.btn {
+    text-transform: uppercase;
+    margin: 35px auto;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, .29);
+    cursor: pointer;
+    background: #fff;
+    font-size: 16px;
+    width: 250px;
+    position: relative;
+}
+
+.btn:hover {
+    border-color: rgba(0, 0, 0, .5);
+    text-decoration: none;
+}
+
+.btn:focus {
+    outline: 0;
+    font-weight: 700;
+    border-width: 2px;
+}
+
+.center {
+    text-align: center;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-decoration: none;
+    background-color: aliceblue;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav li:first-child {
+    padding-left: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.avatar-spacer {
+    height: 55px;
+    width: 55px;
+    border: solid red 0;
+}
+
+.avatar {
+    height: 50px;
+    width: auto;
+    border-radius: 25px;
+    display: block; /*for the img inside your div */
+    margin: 2px auto 0 auto;
+}
+
+.poll {
+    width: 100%;
+    max-width: 590px;
+    padding: 10px;
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid #dad7d7;
+    border-radius: 3px;
+    /*cursor: pointer;*/
+}
+
+.poll-info {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Hacky but less typing in the video */
+.poll-info-1 {
+    color: #000;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.poll-info-2 {
+    color: #969696;
+    font-size: 16px;
+}
+
+.poll-info-3 {
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 5px;
+    margin-left: 30px;
+}
+
+.poll-info-4 {
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 5px 5px 12px;
+}
+
+.poll-info-5 {
+    color: #333;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 5px;
+    margin-left: 50px;
+}
+
+.poll-info-6 {
+    margin-left: 0;
+}
+
+.poll-info > div {
+    color: #969696;
+    font-size: 15px;
+}
+
+.poll-info > p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.poll-icons {
+    display: flex;
+    align-items: center;
+}
+
+.poll-icons > span {
+    color: #969696;
+    margin: 0 15px 0 5px;
+    font-size: 18px !important;
+}
+
+.poll-icon {
+    font-size: 27px;
+    color: #00b5d6;
+}
+
+.poll-icon-sm {
+    font-size: 7px;
+    color: #000000;
+    margin: 0 10px 0 10px;
+}
+
+.poll-icon-checked {
+    color: green;
+}
+
+.poll-icon-not-checked {
+    color: red;
+}
+
+.reply-icon {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    color: #e0245e;
+}
+
+.reply-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.reply-button > span {
+    color: #e0245e;
+    margin: 0 15px 0 5px;
+    font-size: 13px !important;
+}
+
+.new-poll {
+    width: 100%;
+    max-width: 590px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #dad7d7;
+    padding: 10px;
+    font-size: 15px;
+    height: 100px;
+}
+
+.poll-length {
+    text-align: right;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #C3392A;
+}
+
+.letter {
+    font-size: 20px;
+    font-family: cursive;
+    color: blue;
+    margin-right: 10px;
+}
+
+.indent {
+    margin-right: 10px;
+}
+
+.btn-selected {
+    background-color: aliceblue;
+    font-weight: bold;
+}
+
+.welcome {
+    /*float: right;*/
+    margin-top: -20px;
+    font-size: .9em;
+    padding-left: 20px;
+}
+
+.user {
+    font-weight: bold;
+}
+
+.not-found {
+    width: 100%;
+    max-width: 590px;
+    padding: 30px;
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid #dad7d7;
+    border-radius: 3px;
+}
